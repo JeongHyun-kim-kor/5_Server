@@ -107,7 +107,7 @@ public class ServletEx2 extends HttpServlet{
 		 * 
 		 * - 요청에 따라서 응답되는 화면(HTML)을
 		 *   실시간으로 만들어내서(동적)
-		 *   클라이언트에게 
+		 *   클라이언트에게 응답하는 프로젝트
 		 * 
 		 */
 		
