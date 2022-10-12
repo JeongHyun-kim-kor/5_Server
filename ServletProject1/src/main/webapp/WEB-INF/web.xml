@@ -3,7 +3,7 @@
   <display-name>ServletProject1</display-name>
 
 
-  <!-- -->
+  <!-- 메인페이지 목록 -->
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
