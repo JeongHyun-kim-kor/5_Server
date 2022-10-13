@@ -50,8 +50,8 @@
                   <li>   이름 : <%= memberName %>  </li>
                   <li>   이메일 : <%= memberEmail %>  </li>
                   <li>   취미 :  
-                                 <%   for(String hob : hobby){ %>
-                                        <%= hob %>
+                                 <%   for(String h : hobby){ %>
+                                        <%= h %>
                                         <% } %> 
                                          </li>
 
