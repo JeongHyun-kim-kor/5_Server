@@ -104,7 +104,8 @@ public class LoginServlet extends HttpServlet {
 
 		// attribute : 속성 == 데이터(값)
 		
-		req.setAttribute("r", result);
+		// request가 적합하다.
+		req.setAttribute("r", result); // result를 "r"에 담을 것임.
 							// Object로 업캐스팅 되어있는 상태
 		
 		dispatcher.forward(req, resp);

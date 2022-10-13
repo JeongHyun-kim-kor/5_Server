@@ -62,7 +62,8 @@ pageEncoding="UTF-8"%>
     
     <div id="container">
         주문한 피자 : <%= pizza %> <br>
-
+		
+		주문한 사이즈 :
         <%-- Regular / Large --%>
         <%  if(size.equals("L")) { %>
                 Large
@@ -78,7 +79,7 @@ pageEncoding="UTF-8"%>
     </div>
 
 
-<
+
 
 
   
