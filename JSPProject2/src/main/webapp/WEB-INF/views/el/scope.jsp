@@ -71,8 +71,10 @@
         </li>            
     </ul>
 
-    <hr>
 
+
+    <hr>
+	키 값이 동일해도 범위가 다르면은 
     <h1>우선 순위 확인 : ${str}</h1>
     
     <h3>page의 str 값 : ${pageScope.str} </h3>
