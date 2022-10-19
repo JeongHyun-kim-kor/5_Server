@@ -43,7 +43,7 @@
                 <c:when test="${empty sessionScope.loginMember}">
                 <a href="/">메인 페이지</a>
                 |
-                <a href="#">로그인</a>
+                <a href="/member/login">로그인</a>
                 </c:when>
 
 
