@@ -38,12 +38,40 @@
             <%-- 내정보 --%>
             <%-- 로그아웃 --%>
             <div id="header-top-menu">
+            <c:choose>
+                <%-- 로그인 X인 경우 --%>
+                <c:when test="${empty sessionScope.loginMember}">
                 <a href="/">메인 페이지</a>
                 |
                 <a href="#">로그인</a>
+                </c:when>
+
+
+                <%-- 로그인 0인 경우 --%>
+                <c:otherwise>
+                    <%-- label = input태그의 이름같은 것 --%>
+                    <label for="header-menu-toggle">
+                        ${loginMember.memberNickname}
+                        <i class="fa-solid fa-caret-down"></i> <%-- 화살표 모양 이미지 --%>
+                    </label>
+
+                    <input type="checkbox" id="header-menu-toggle">
+
+                    <div id="header-menu">
+                        <a href="#">내정보</a>
+                        <a href="/member/logout">로그아웃</a>  <%--  --%>
+                    </div>
+                
+                </c:otherwise>
+            </c:choose>
 
             </div>
             
+        
+
+
+
+
         </header>
 
         <nav>
