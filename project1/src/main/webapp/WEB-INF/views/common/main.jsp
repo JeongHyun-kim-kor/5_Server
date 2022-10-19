@@ -85,7 +85,7 @@
             
                         <!-- 회원가입/ Id/pw찾기 -->
                         <article id="signUp-find-area">
-                            <a href="#">회원 가입</a>
+                            <a href="/member/signUp">회원 가입</a>
                             <span> | </span>
                             <a href="#">ID/PW 찾기</a>
                         </article>
