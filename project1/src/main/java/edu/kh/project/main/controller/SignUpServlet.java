@@ -30,8 +30,10 @@ public class SignUpServlet extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		//데이터 문자 인코딩 변환
-		req.setCharacterEncoding("UTF-8");
+//		//데이터 문자 인코딩 변환
+//		req.setCharacterEncoding("UTF-8");
+		
+		
 		
 		// 파라미터 얻어오기
 		String memberEmail = req.getParameter("memberEmail");
