@@ -43,7 +43,7 @@ public class JDBCTemplate {
             
             
 		   String filePath 
-		   = JDBCTemplate.class.getResource("/edu/kh/jsp/sql/driver.xml").getPath();
+		   = JDBCTemplate.class.getResource("/myProject/projsect/sql/driver.xml").getPath();
             
             
             // driver.xml 파일 읽어오기
